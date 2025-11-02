@@ -116,5 +116,27 @@
   <footer>
     <p>© 2025 Gradient-1024 | Built using GitHub Pages</p>
   </footer>
+
+  <!-- Back to Top Button -->
+<button id="backToTop" title="Back to Top">↑</button>
+
+<script>
+// 显示或隐藏按钮
+window.onscroll = function() {
+  const btn = document.getElementById("backToTop");
+  if (document.body.scrollTop > 300 || document.documentElement.scrollTop > 300) {
+    btn.style.display = "block";
+  } else {
+    btn.style.display = "none";
+  }
+};
+
+// 平滑回到顶部
+document.getElementById("backToTop").onclick = function() {
+  window.scrollTo({ top: 0, behavior: 'smooth' });
+};
+</script>
+
+  
 </body>
 </html>
