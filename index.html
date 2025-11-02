@@ -1,24 +1,76 @@
 <!DOCTYPE html>
-<html lang="zh-CN">
+<html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Welcome to My Blog</title>
-    <style>
-        body { 
-            font-family: "Segoe UI", Helvetica, Arial, sans-serif; 
-            background: #f4f4f4;
-            color: #333;
-            text-align: center;
-            margin-top: 10%;
-        }
-        h1 { color: #1a73e8; }
-        p { font-size: 1.2em; }
-    </style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Gradient-1024 | Home</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-    <h1>Hello, I'm Gradient-1024 👋</h1>
-    <p>Welcome to my personal GitHub Pages site!</p>
-    <p>More content is coming soon...</p>
+  <header>
+    <nav>
+      <div class="logo">Gradient-1024</div>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="home" class="hero">
+    <div class="hero-content">
+      <h1>Hello, I'm <span>Gradient-1024 👋</span></h1>
+      <p>AI researcher, builder, and curious mind exploring intelligence and creativity.</p>
+      <div class="buttons">
+        <a href="#projects" class="btn">View Projects</a>
+        <a href="#contact" class="btn secondary">Contact Me</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="about" class="about">
+    <h2>About Me</h2>
+    <p>
+      I’m an undergraduate majoring in Artificial Intelligence, passionate about symbolic reasoning, PDE-based learning, and AI4Math research. 
+      I enjoy exploring how mathematical structures can enhance machine learning interpretability and expressiveness.
+    </p>
+  </section>
+
+  <section id="projects" class="projects">
+    <h2>Projects</h2>
+    <div class="project-grid">
+      <div class="project-card">
+        <h3>SR4MDL</h3>
+        <p>Symbolic regression model for Minimum Description Length principle learning.</p>
+        <a href="#" class="project-link">View on GitHub →</a>
+      </div>
+      <div class="project-card">
+        <h3>PINN-Operator</h3>
+        <p>Physics-informed neural operator for solving high-dimensional PDEs.</p>
+        <a href="#" class="project-link">View on GitHub →</a>
+      </div>
+      <div class="project-card">
+        <h3>TRPO-RL</h3>
+        <p>Implementation of Trust Region Policy Optimization in PyTorch.</p>
+        <a href="#" class="project-link">View on GitHub →</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="contact">
+    <h2>Contact</h2>
+    <p>Let’s connect — I’m open to research discussions and collaboration.</p>
+    <div class="social-links">
+      <a href="https://github.com/gradient-1024" target="_blank">GitHub</a>
+      <a href="mailto:gradient1024@example.com">Email</a>
+      <a href="#">LinkedIn</a>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2025 Gradient-1024 | Built with ❤️ using GitHub Pages</p>
+  </footer>
 </body>
 </html>
